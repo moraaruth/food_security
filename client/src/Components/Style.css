@@ -1,0 +1,325 @@
+nav {
+  background-color:#f2f2f2 ;
+  border-bottom: 1px solid #ddd;
+  padding: 10px 10px;
+}
+
+ul {
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin: 0 10px;
+}
+
+a {
+ 
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+  transition: all 0.3s ease-in-out;
+}
+
+a:hover {
+  color: #f00;
+}
+
+/* styling homepage */
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  color: white;
+  
+}
+
+button {
+  background-color: #123524;
+  color: white;
+  padding: 12px 24px;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  
+}
+/* styling footer */
+.footer {
+  background-color: #f2f2f2;
+  padding: 45px 0;
+  font-size: 16px;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer-section {
+  flex-basis: 20%;
+  margin-bottom: 30px;
+  
+}
+
+.footer-title {
+  font-size: 22px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.footer-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-list li {
+  margin-bottom: 10px;
+}
+
+.footer-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #FFFFFF;
+  font-size: 16px;
+  color: #555555;
+}
+
+.footer-button {
+  display: block;
+  padding: 10px;
+  margin: 0 auto;
+  border: none;
+  border-radius: 5px;
+  background-color: #1ABC9C;
+  color: #FFFFFF;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.footer-button:hover {
+  background-color: #148F77;
+}
+/* style signuform */
+.signup-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.signup-image {
+  width: 100%;
+  max-width: 500px;
+  margin-bottom: 1rem;
+}
+
+.signup-form {
+  width: 100%;
+  max-width: 500px;
+}
+
+.signup-form label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.signup-form input[type="text"],
+.signup-form input[type="email"],
+.signup-form input[type="password"] {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 0.25rem;
+  margin-bottom: 1rem;
+}
+
+.signup-form button[type="submit"] {
+  background-color: #148F77;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  align-items: center;
+}
+
+
+.h2-prod {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+
+.h3-prod {
+  margin-top: 30px;
+  font-size: 24px;
+}
+
+.p-prod {
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+#reviews {
+  width: 100%;
+}  */
+h2 {
+  font-size: 1.6rem;
+  font-weight: bolder;
+}
+.form {
+  background-image: url("https://images.pexels.com/photos/5632385/pexels-photo-5632385.jpeg?auto=compress&cs=tinysrgb&w=600");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgba(245, 245, 245, 0.8);
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  padding: 1.2rem;
+  margin-top: 50px;
+  margin-left: 30%;
+  max-width: 550px;
+  padding: 40px;
+  background-color: #f8f9fa;
+  border-radius: 4px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  width: 100%;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 1.5rem;
+}
+
+.form-label {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.form-input {
+  padding: 0.8rem;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  border: none;
+  background-color: #f2f2f2;
+  width: 100%;
+}
+
+.form-input:focus {
+  outline: none;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+.form-button {
+  background-color: #007bff;
+  color: #ffffff;
+  font-size: 1.5rem;
+  padding: 1rem 3rem;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  width: 150px;
+}
+
+.form-button:hover {
+  background-color: #148F77;
+}
+
+/* styling loginform */
+.form-container {
+
+  max-width: 550px;
+  margin-top: 50px;
+  margin-left: 30%;
+  padding: 3.2rem;
+  background-color: #fff;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+.form1 {
+  background-image: url("https://cdn.pixabay.com/photo/2016/08/01/17/08/tomatoes-1561565_640.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgba(245, 245, 245, 0.8);
+  max-width: 300px;
+  /* margin-top: 50px; */
+  margin-left: 30%;
+  padding: 1.2rem;
+  background-color: #fff;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+.title {
+  font-weight: bolder;
+  font-size: 2.2rem;
+  padding-top: 2rem;
+  color: whitesmoke;
+}
+.form-title {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.form-input {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.699);
+  border-bottom: 2px solid #ccc;
+  transition: border-bottom-color 0.3s;
+}
+
+.form-input:focus {
+  border-bottom-color: #148F77;
+  outline: none;
+}
+
+.form-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #148F77;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  width: 150px;
+  transition: background-color 0.3s;
+}
+
+.form-button:hover {
+  background-color: #148F77;
+}
