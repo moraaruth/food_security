@@ -4,14 +4,21 @@ import Footer from './Footer'
 import './Style.css'
 import SignUpForm from './SignUpForm';
 import LoginForm from './LoginForm';
+import FarmerProfile from './FarmerProfile';
+import FarmerDashboard from './FarmerDashboard';
+import AboutUs from './AboutUs';
+import Message from './Message';
+import BuyerDashboard from './BuyerDashboard';
 
 function HomePage (){
     return (
         <>
  <NavBar />
- <SignUpForm />
- <LoginForm />
-       
+ {/* <FarmerProfile /> */}
+ {/* <FarmerDashboard /> */}
+ {/* <SignUpForm />
+ <LoginForm /> */}
+       {/* <AboutUs /> */}
     <div
   className="home-container"
   style={{
@@ -27,7 +34,10 @@ function HomePage (){
 
 
 </div>
+<BuyerDashboard />
+{/* <Message /> */}
 <Footer />
+
         </>
     )
 

@@ -42,7 +42,7 @@ a:hover {
 }
 
 button {
-  background-color: #123524;
+  background-color: #b30000;
   color: white;
   padding: 12px 24px;
   font-size: 16px;
@@ -150,7 +150,7 @@ button {
 }
 
 .signup-form button[type="submit"] {
-  background-color: #148F77;
+  background-color: #008000;
   color: #fff;
   border: none;
   padding: 0.5rem 1rem;
@@ -309,7 +309,7 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #148F77;
+  background-color: #008000;
   color: #ffffff;
   font-size: 16px;
   padding: 10px;
@@ -323,3 +323,479 @@ h2 {
 .form-button:hover {
   background-color: #148F77;
 }
+/* styling farmers profile */
+.farmer-profile {
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.profile-name {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.profile-status {
+  font-style: italic;
+  color: #777;
+}
+
+.dashboard,
+.accounts {
+  margin-top: 20px;
+}
+
+.dashboard h3,
+.accounts h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #333;
+  display: flex;
+  align-items: center;
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.dashboard-item,
+.account-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #fff;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-item img,
+.account-item img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.dashboard-item p,
+.account-item p {
+  margin: 0;
+}
+
+.dashboard-item .item-label,
+.account-item .item-label {
+  font-weight: bold;
+}
+
+.account-item .item-label {
+  color: #888;
+}
+
+.account-item .item-value {
+  color: #333;
+}
+.profile-photo {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+/* .farmer-profile {
+  display: flex;
+  align-items: center;
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  margin: 0 auto;
+} */
+
+
+.profile-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.profile-name {
+  font-size: 24px;
+  color: #333;
+  margin: 0;
+}
+
+.profile-status {
+  font-style: italic;
+  color: #777;
+  margin-top: 5px;
+}
+.dashboard-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.item-quantity {
+  font-weight: bold;
+}
+.profile-header {
+  display: flex;
+  align-items: center;
+
+  margin-bottom: 10px;
+}
+
+.profile-text {
+  font-weight: bold;
+  margin-left: 10px;
+  font-size: 24px;
+}
+/* styling farmers dashboard */
+.farmer-dashboard {
+  display: flex;
+  flex-direction: column;
+  height: 600px;
+}
+
+.navbar {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  background-color: #c0d3cc;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+ 
+}
+
+.header input[type="text"] {
+  margin-right: 10px;
+  padding: 5px;
+  border: 1px solid rgb(182, 181, 181);
+  margin-left: 10rem;
+  width: 650px;
+  height: 20px;
+  border-radius: 0.5rem;
+}
+
+.header button {
+  background-color: #c0d3cc;
+  color: #fff;
+  padding: 5px 10px;
+  font-weight: bolder;
+  font-size: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.main-content {
+  display: flex;
+  flex-grow: 1;
+
+}
+
+.category-section,
+.orders-section,
+.item-list {
+  background-color: #c0d3cc;
+  padding: 10px;
+  flex-basis: 200px;
+  overflow: auto;
+
+}
+.category-container {
+  width: 50%;
+  margin-left: 1.5rem;
+}
+.category-section h3,
+.orders-section h3,
+.item-list h3 {
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+ul {
+  padding: 0;
+ margin-left: 2.5rem;
+  list-style-type: none;
+}
+
+ul li {
+  margin-bottom: 10px;
+  font-size: 18px;
+
+}
+.category-item {
+  display: flex;
+  align-items: center;
+  width: 180px;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #cbcfce;
+  border-radius: 4px;
+}
+.category-item1{
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  width: 180px;
+  margin-bottom: 10px;
+  background-color: #fff;
+  border-radius: 4px;
+
+
+}
+.category-item1 img{
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+.category-items{
+  display: flex;
+  align-items:baseline;
+  padding: 15px;
+  margin-bottom: 10px;
+  background-color: #fff;
+  border-radius: 4px;
+
+}
+.category-items img {
+  width: 180px;
+  height: 180px;
+  margin-right: 10px;
+  object-fit: cover;
+  border-radius: 10px;
+
+}
+.category-item img {
+  width: 80px;
+  height: 80px;
+  margin-right: 10px;
+  object-fit: cover;
+}
+.category-item .category-itemsh5 {
+  font-size: 16 px;
+  margin-bottom: 5px;
+}
+.plant-desc {
+  font-size: 14px;
+  color: #666;
+}
+ul div img {
+  /* margin-right: 10px; */
+  width: 40px; 
+  height: 40px; 
+  border-radius: 0.3rem;
+}
+
+.item-list {
+  flex-grow: 1;
+  border-right: none;
+  display: flex;
+  flex-direction: column;
+}
+.item-lists{
+  
+  border-radius: 7px;
+  padding: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+.item-list h3 {
+  margin-bottom: 20px;
+}
+
+.orders-section ul {
+  display: flex;
+  flex-direction: column;
+}
+.category-section ul {
+  display: flex;
+  flex-direction: column;
+}
+.container {
+
+  max-width: 650px;
+  /* margin: 0 auto; */
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.container h5 {
+  margin-top: 0;
+}
+
+.payment-options ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.payment-options li {
+  margin-bottom: 5px;
+}
+
+.plants-section {
+  margin-top: 20px;
+}
+
+.plants-section h5 {
+  margin-top: 0;
+}
+
+.plant-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.plant-name {
+  flex-grow: 1;
+}
+
+.increment-buttons {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+}
+
+.increment-button {
+  padding: 5px;
+  width: 25px;
+  /* height: 20px; */
+  align-items: center;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 20%;
+  cursor: pointer;
+}
+
+.quantity {
+  margin: 0 10px;
+}
+
+.section-title {
+  display: flex;
+  align-items: center;
+}
+/* style aboutus */
+.about-us-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 32px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #666;
+}
+/* styling messaging system */
+.messaging-system-container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.message-container {
+  margin-bottom: 10px;
+}
+
+.message {
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.message p {
+  margin: 0;
+}
+
+.message span {
+  font-size: 12px;
+  color: #999;
+}
+
+.buyer {
+  background-color: #eaf2ff;
+}
+
+.message-input {
+  width: 100%;
+  padding: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+
+.send-button {
+  background-color: #008000;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.send-button:hover {
+  background-color: #148F77;
+}
+/* styling buyer dashboard */
+/* BuyerDashboard.css */
+
+.buyer-dashboard {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+
+.buyer-section {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+
+
+
+

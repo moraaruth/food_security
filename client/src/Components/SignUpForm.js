@@ -17,7 +17,7 @@ function SignUpForm() {
         <button type="submit">Sign Up</button>
         <div className="form-group">
           <p className="create-account-message">
-            Have an account? <a href="/login" style={{ color: '#148F77', cursor: 'pointer' }}>Log in</a>
+            Have an account? <a href="/login" style={{ color: '#008000', cursor: 'pointer' }}>Log In</a>
           </p>
         </div>
    
